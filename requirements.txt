@@ -2,10 +2,12 @@ fastapi
 uvicorn
 jinja2
 python-multipart
+triton==2.1.0
 stable-ts
 
-numpy
-torch
+# numpy
+numpy<2
+# torch
 tqdm
 more-itertools
 transformers>=4.19.0
